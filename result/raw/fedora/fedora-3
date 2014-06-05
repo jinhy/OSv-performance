@@ -1,0 +1,146 @@
+cpu 1
+Run time: 30.0s Ops: 1759999 TPS: 58661 Net_rate: 49.1M/s
+haproxy
+1
+Requests per second:    998.39 [#/sec] (mean)
+5
+Requests per second:    1895.63 [#/sec] (mean)
+10
+Requests per second:    413.84 [#/sec] (mean)
+20
+Requests per second:    153.70 [#/sec] (mean)
+50
+Requests per second:    288.97 [#/sec] (mean)
+100
+Requests per second:    407.98 [#/sec] (mean)
+200
+Requests per second:    0.30 [#/sec] (mean)
+500
+Requests per second:    736.05 [#/sec] (mean)
+thread lighttpd
+1
+Requests per second:    0.93 [#/sec] (mean)
+5
+Requests per second:    67.96 [#/sec] (mean)
+10
+Requests per second:    220.69 [#/sec] (mean)
+20
+Requests per second:    593.91 [#/sec] (mean)
+50
+Requests per second:    1159.19 [#/sec] (mean)
+100
+Requests per second:    5322.98 [#/sec] (mean)
+200
+Requests per second:    5757.52 [#/sec] (mean)
+500
+Requests per second:    5609.08 [#/sec] (mean)
+progress lighttpd
+1
+Requests per second:    2032.84 [#/sec] (mean)
+5
+Requests per second:    5.59 [#/sec] (mean)
+10
+Requests per second:    4822.50 [#/sec] (mean)
+20
+Requests per second:    7997.54 [#/sec] (mean)
+50
+Requests per second:    7677.29 [#/sec] (mean)
+100
+Requests per second:    8010.22 [#/sec] (mean)
+200
+Requests per second:    7510.96 [#/sec] (mean)
+500
+Requests per second:    7102.19 [#/sec] (mean)
+cpu 2
+Run time: 30.0s Ops: 1760077 TPS: 58662 Net_rate: 49.1M/s
+haproxy
+1
+Requests per second:    1019.04 [#/sec] (mean)
+5
+Requests per second:    812.23 [#/sec] (mean)
+10
+Requests per second:    2468.49 [#/sec] (mean)
+20
+Requests per second:    375.88 [#/sec] (mean)
+50
+Requests per second:    1.40 [#/sec] (mean)
+100
+Requests per second:    2233.38 [#/sec] (mean)
+200
+Requests per second:    2.30 [#/sec] (mean)
+500
+Requests per second:    117.28 [#/sec] (mean)
+thread lighttpd
+1
+Requests per second:    8.94 [#/sec] (mean)
+5
+Requests per second:    42.07 [#/sec] (mean)
+10
+Requests per second:    0.90 [#/sec] (mean)
+20
+Requests per second:    1.10 [#/sec] (mean)
+50
+Requests per second:    788.33 [#/sec] (mean)
+100
+Requests per second:    73.27 [#/sec] (mean)
+200
+Requests per second:    407.41 [#/sec] (mean)
+500
+Requests per second:    2.80 [#/sec] (mean)
+progress lighttpd
+1
+Requests per second:    1521.39 [#/sec] (mean)
+5
+Requests per second:    6196.35 [#/sec] (mean)
+10
+Requests per second:    6686.84 [#/sec] (mean)
+20
+Requests per second:    6429.61 [#/sec] (mean)
+50
+Requests per second:    7544.42 [#/sec] (mean)
+100
+Requests per second:    8176.14 [#/sec] (mean)
+200
+Requests per second:    6792.36 [#/sec] (mean)
+500
+Requests per second:    7276.77 [#/sec] (mean)
+cpu 4
+Run time: 30.0s Ops: 1605981 TPS: 53525 Net_rate: 46.5M/s
+haproxy
+1
+Requests per second:    988.39 [#/sec] (mean)
+5
+Requests per second:    871.39 [#/sec] (mean)
+10
+Requests per second:    2528.97 [#/sec] (mean)
+20
+Requests per second:    493.42 [#/sec] (mean)
+50
+Requests per second:    395.89 [#/sec] (mean)
+100
+Requests per second:    42.70 [#/sec] (mean)
+200
+Requests per second:    736.88 [#/sec] (mean)
+500
+Requests per second:    409.32 [#/sec] (mean)
+thread lighttpd
+1
+Requests per second:    1.40 [#/sec] (mean)
+5
+Requests per second:    42.00 [#/sec] (mean)
+10
+Requests per second:    18.99 [#/sec] (mean)
+20
+50
+100
+200
+500
+progress lighttpd
+1
+5
+10
+20
+50
+100
+200
+500

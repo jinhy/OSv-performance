@@ -1,0 +1,18 @@
+1
+Run time: 30.0s Ops: 3731873 TPS: 124378 Net_rate: 141.0M/s
+2
+Run time: 30.0s Ops: 2272441 TPS: 75737 Net_rate: 85.9M/s
+4
+Run time: 30.0s Ops: 2260051 TPS: 75324 Net_rate: 85.4M/s
+6
+Run time: 30.0s Ops: 2589027 TPS: 86288 Net_rate: 97.9M/s
+8
+Run time: 30.0s Ops: 379406 TPS: 12645 Net_rate: 14.3M/s
+10
+Run time: 30.0s Ops: 2822107 TPS: 94058 Net_rate: 106.7M/s
+12
+Run time: 30.0s Ops: 3118362 TPS: 103932 Net_rate: 117.9M/s
+14
+Run time: 30.0s Ops: 2929890 TPS: 97650 Net_rate: 110.8M/s
+16
+Run time: 30.0s Ops: 2531003 TPS: 84356 Net_rate: 95.7M/s

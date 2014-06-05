@@ -1,0 +1,1 @@
+sudo /usr/libexec/qemu-kvm -spice port=6900,disable-ticketing -hda us.img  -netdev tap,id=hn0,script=qemu-ifup.sh,vhost=on -device virtio-net-pci,netdev=hn0,id=nic1 -enable-kvm -cpu host,+x2apic

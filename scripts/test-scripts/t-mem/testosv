@@ -1,0 +1,18 @@
+file="`pwd`/../result/memcached-$1"
+img=$2
+pushd ../memaslap/libmemcached-1.0.18/clients/ > /dev/null
+>$file
+for ccc in 1 `seq 2 2 16`
+do
+    pushd >/dev/null
+    /usr/libexec/qemu-kvm -smp $ccc -m 8192 -spice port=6900,disable-ticketing -drive file=$img,if=virtio,cache=unsafe -netdev tap,id=hn0,script=qemu-ifup.sh,vhost=on -device virtio-net-pci,netdev=hn0,id=nic1 -enable-kvm -cpu host,+x2apic &
+    echo "go sleep..."
+    sleep 10
+    pushd >>/dev/null
+    echo "begin.."
+    echo "$ccc">>$file
+    ./memaslap -s 192.168.122.140 -T 3 --concurrency 120 -t 30s --udp | tail -n 1 |  tee -a  $file
+    kill `ps aux | grep "6900" | awk '{print $2}' | head -n 1`
+    sleep 2
+done
+

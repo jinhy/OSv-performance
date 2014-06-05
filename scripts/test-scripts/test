@@ -1,0 +1,14 @@
+
+for aaa in 1 2 3 4 5
+do
+    ./testfedora fedora-t1-$aaa
+#    cd t-mem
+#    ./testosv osv-t1-$aaa usr-memcached-t1.img
+#    ./testosv osv-t4-$aaa usr-memcached-t4.img
+#    ./testosv osv-osv-$aaa usr-memcached-osv.img
+#    cd ..
+#    ./testhl lighttpd-osv-$aaa usr-lighttpd.img 8080
+#    ./testhl haproxy-osv-$aaa usr-haproxy.img 8000
+
+done
+#

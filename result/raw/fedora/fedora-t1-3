@@ -1,0 +1,18 @@
+cpu 1
+Run time: 30.0s Ops: 1640418 TPS: 54673 Net_rate: 47.1M/s
+cpu 2
+Run time: 30.0s Ops: 1364847 TPS: 45488 Net_rate: 42.1M/s
+cpu 4
+Run time: 30.0s Ops: 1355474 TPS: 45176 Net_rate: 41.9M/s
+cpu 6
+Run time: 30.0s Ops: 1607920 TPS: 53590 Net_rate: 46.5M/s
+cpu 8
+Run time: 30.0s Ops: 1477058 TPS: 49229 Net_rate: 44.2M/s
+cpu 10
+Run time: 30.0s Ops: 1638345 TPS: 54604 Net_rate: 47.2M/s
+cpu 12
+Run time: 30.0s Ops: 1544109 TPS: 51462 Net_rate: 45.4M/s
+cpu 14
+Run time: 30.0s Ops: 1455068 TPS: 48494 Net_rate: 43.8M/s
+cpu 16
+Run time: 30.0s Ops: 1337224 TPS: 44568 Net_rate: 41.6M/s

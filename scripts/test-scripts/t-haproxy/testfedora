@@ -1,0 +1,13 @@
+file="`pwd`/osv-haproxy-result"
+>$file
+for ccc in 1 `seq 2 2 16`
+do
+    sudo /usr/libexec/qemu-kvm -m 8192 -smp 8 -spice port=6900,disable-ticketing -hda ../fedora.img  -netdev tap,id=hn0,script=qemu-ifup.sh,vhost=on -device virtio-net-pci,netdev=hn0,id=nic1 -enable-kvm -cpu host,+x2apic
+    echo "go sleep..."
+    sleep 60
+    echo "$ccc">>$file
+    ab -n 1000 -c 120 -t 60 192.168.122.140:8000/index.html | grep "Requests per second" |  tee -a  $file
+    sudo kill `ps aux | grep "6900" | awk '{print $2}' | head -n 1`
+    sleep 2
+done
+

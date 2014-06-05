@@ -1,0 +1,15 @@
+file="`pwd`/../result/lighttpd-$1"
+img=$2
+>$file
+for ccc in 1 5 10 20 50 100 200 300
+do
+    /usr/libexec/qemu-kvm -smp $ccc -m 8192 -spice port=6900,disable-ticketing -drive file=$img,if=virtio,cache=unsafe -netdev tap,id=hn0,script=qemu-ifup.sh,vhost=on -device virtio-net-pci,netdev=hn0,id=nic1 -enable-kvm -cpu host,+x2apic &
+    echo "go sleep..."
+    sleep 10
+    echo "begin.."
+    echo "$ccc">>$file
+    ab -t 30 -c $ddd 192.168.122.140:8080/ | grep "Requests per second" >> $file
+    kill `ps aux | grep "6900" | awk '{print $2}' | head -n 1`
+    sleep 2
+done
+

@@ -1,0 +1,1 @@
+sudo /usr/libexec/qemu-kvm -smp 1 -m 8192 -spice port=6900,disable-ticketing -drive file=usr-memcached.img,if=virtio,cache=unsafe -netdev tap,id=hn0,script=qemu-ifup.sh,vhost=on -device virtio-net-pci,netdev=hn0,id=nic1 -enable-kvm -cpu host,+x2apic

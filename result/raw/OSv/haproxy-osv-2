@@ -1,0 +1,154 @@
+upc cpu 1
+1
+Requests per second:    1855.32 [#/sec] (mean)
+5
+Requests per second:    8203.11 [#/sec] (mean)
+10
+Requests per second:    9649.44 [#/sec] (mean)
+20
+Requests per second:    10353.90 [#/sec] (mean)
+50
+Requests per second:    9433.87 [#/sec] (mean)
+100
+Requests per second:    9175.41 [#/sec] (mean)
+200
+Requests per second:    7944.89 [#/sec] (mean)
+300
+Requests per second:    7973.21 [#/sec] (mean)
+upc cpu 2
+1
+Requests per second:    1755.01 [#/sec] (mean)
+5
+Requests per second:    8348.43 [#/sec] (mean)
+10
+Requests per second:    9269.13 [#/sec] (mean)
+20
+Requests per second:    10346.61 [#/sec] (mean)
+50
+Requests per second:    9410.79 [#/sec] (mean)
+100
+Requests per second:    9175.74 [#/sec] (mean)
+200
+Requests per second:    7319.52 [#/sec] (mean)
+300
+Requests per second:    7621.08 [#/sec] (mean)
+upc cpu 4
+1
+Requests per second:    1804.04 [#/sec] (mean)
+5
+Requests per second:    8193.36 [#/sec] (mean)
+10
+Requests per second:    9557.58 [#/sec] (mean)
+20
+Requests per second:    10298.45 [#/sec] (mean)
+50
+Requests per second:    9381.57 [#/sec] (mean)
+100
+Requests per second:    8948.87 [#/sec] (mean)
+200
+Requests per second:    7322.15 [#/sec] (mean)
+300
+Requests per second:    7026.86 [#/sec] (mean)
+upc cpu 6
+1
+Requests per second:    1816.49 [#/sec] (mean)
+5
+Requests per second:    8451.23 [#/sec] (mean)
+10
+Requests per second:    9645.71 [#/sec] (mean)
+20
+Requests per second:    10384.00 [#/sec] (mean)
+50
+Requests per second:    9595.46 [#/sec] (mean)
+100
+Requests per second:    9268.87 [#/sec] (mean)
+200
+Requests per second:    7467.48 [#/sec] (mean)
+300
+Requests per second:    7117.84 [#/sec] (mean)
+upc cpu 8
+1
+Requests per second:    1729.83 [#/sec] (mean)
+5
+Requests per second:    8157.14 [#/sec] (mean)
+10
+Requests per second:    9520.36 [#/sec] (mean)
+20
+Requests per second:    10066.44 [#/sec] (mean)
+50
+Requests per second:    9346.49 [#/sec] (mean)
+100
+Requests per second:    9065.11 [#/sec] (mean)
+200
+Requests per second:    7289.32 [#/sec] (mean)
+300
+Requests per second:    6967.48 [#/sec] (mean)
+upc cpu 10
+1
+Requests per second:    1829.14 [#/sec] (mean)
+5
+Requests per second:    8605.48 [#/sec] (mean)
+10
+Requests per second:    10070.09 [#/sec] (mean)
+20
+Requests per second:    10625.98 [#/sec] (mean)
+50
+Requests per second:    9628.16 [#/sec] (mean)
+100
+Requests per second:    9351.21 [#/sec] (mean)
+200
+Requests per second:    7596.65 [#/sec] (mean)
+300
+Requests per second:    7355.59 [#/sec] (mean)
+upc cpu 12
+1
+Requests per second:    2127.00 [#/sec] (mean)
+5
+Requests per second:    9106.72 [#/sec] (mean)
+10
+Requests per second:    9213.11 [#/sec] (mean)
+20
+Requests per second:    10680.22 [#/sec] (mean)
+50
+Requests per second:    9744.50 [#/sec] (mean)
+100
+Requests per second:    9480.02 [#/sec] (mean)
+200
+Requests per second:    8221.72 [#/sec] (mean)
+300
+Requests per second:    7330.14 [#/sec] (mean)
+upc cpu 14
+1
+Requests per second:    1681.61 [#/sec] (mean)
+5
+Requests per second:    8157.41 [#/sec] (mean)
+10
+Requests per second:    9492.98 [#/sec] (mean)
+20
+Requests per second:    10462.66 [#/sec] (mean)
+50
+Requests per second:    9593.15 [#/sec] (mean)
+100
+Requests per second:    9136.76 [#/sec] (mean)
+200
+Requests per second:    7262.38 [#/sec] (mean)
+300
+Requests per second:    7078.99 [#/sec] (mean)
+upc cpu 16
+1
+Requests per second:    1705.61 [#/sec] (mean)
+5
+Requests per second:    8044.86 [#/sec] (mean)
+10
+Requests per second:    9814.31 [#/sec] (mean)
+20
+Requests per second:    10652.12 [#/sec] (mean)
+50
+Requests per second:    9741.84 [#/sec] (mean)
+100
+Requests per second:    9300.34 [#/sec] (mean)
+200
+Requests per second:    7387.43 [#/sec] (mean)
+300
+Requests per second:    7150.01 [#/sec] (mean)
+upc 

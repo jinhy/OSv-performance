@@ -1,0 +1,21 @@
+file="`pwd`/result/$1"
+img=$2
+port=$3
+>$file
+for ccc in 1 `seq 2 2 16`
+do
+    /usr/libexec/qemu-kvm -smp $ccc -m 8192 -spice port=6900,disable-ticketing -drive file=$img,if=virtio,cache=unsafe -netdev tap,id=hn0,script=qemu-ifup.sh,vhost=on -device virtio-net-pci,netdev=hn0,id=nic1 -enable-kvm -cpu host,+x2apic &
+    echo "go sleep..."
+    sleep 10
+    echo "begin.."
+    echo "cpu $ccc">>$file
+    for ddd in 1 5 10 20 50 100 200 300
+    do
+        echo "$ddd" >>$file
+        ab -n 1000 -k -c $ddd 192.168.122.140:$port/ | grep "Requests per second" >> $file
+        #ab -r -k -n  1000 -c $ddd  192.168.122.140:$port/ >> $file
+    done
+    kill `ps aux | grep "6900" | awk '{print $2}' | head -n 1`
+    sleep 2
+done
+
